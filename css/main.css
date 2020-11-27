@@ -1,4 +1,13 @@
 @charset "UTF-8";
+:root {
+  --primayry-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primayry-white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --icon-color: #afb1b8;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -7,15 +16,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-:root {
-  --primayry-text-color: #212121;
-  --title-text-color: #757575;
-  --accent-color: #2196f3;
-  --primayry-white-color: #ffffff;
-  --secondary-bg-color: #f5f4fa;
-  --icon-color: #afb1b8;
 }
 
 body {
@@ -49,7 +49,6 @@ img {
   height: auto;
 }
 
-/* styl nav */
 .container {
   width: 1200px;
   margin-left: auto;
@@ -63,6 +62,7 @@ img {
   margin: 0;
 }
 
+/* styl nav */
 .main-nav {
   display: flex;
   justify-content: center;
