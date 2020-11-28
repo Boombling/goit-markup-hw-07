@@ -11,9 +11,9 @@
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: var(--primayry-white-color);
+  background-color: $primayry-white-color;
   border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(background-color);
 }
 .social-icon {
   display: flex;
@@ -21,16 +21,16 @@
   align-items: center;
   width: 20px;
   height: 20px;
-  fill: var(--icon-color);
+  fill: $icon-color;
 }
 .icon-item:not(:last-child) {
   margin-right: 10px;
 }
 .icon-link:hover .social-icon,
 .icon-link:focus .social-icon {
-  fill: var(--primayry-white-color);
+  fill: $primayry-white-color;
 }
 .icon-link:hover,
 .icon-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }

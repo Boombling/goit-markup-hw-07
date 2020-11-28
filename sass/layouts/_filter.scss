@@ -13,7 +13,7 @@
 }
 
 .tabs-link {
-  color: var(--primayry-text-color);
+  color: $primayry-text-color;
   background-color: #f5f4fa;
   border-radius: 4px;
   border: none;
@@ -28,6 +28,6 @@
 }
 .tabs-link:hover,
 .tabs-link:focus {
-  color: var(--primayry-white-color);
-  background-color: var(--accent-color);
+  color: $primayry-white-color;
+  background-color: $accent-color;
 }

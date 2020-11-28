@@ -8,8 +8,8 @@ html {
 }
 
 body {
-  background-color: var(--primayry-white-color);
-  color: var(--primayry-text-color);
+  background-color: $primayry-white-color;
+  color: $primayry-text-color;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }

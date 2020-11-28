@@ -6,22 +6,22 @@
   line-height: 1.71;
 }
 .address .logo {
-  color: var(--primayry-white-color);
+  color: $primayry-white-color;
 }
 
 .address-main {
   margin-top: 20px;
   margin-bottom: 9px;
-  color: var(--primayry-white-color);
+  color: $primayry-white-color;
 }
 .address-link {
   display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(color);
   color: rgba(255, 255, 255, 0.6);
 }
 .address-link:hover,
 .address-link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .address-item {
   display: block;
@@ -37,7 +37,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: start;
-  color: var(--primayry-white-color);
+  color: $primayry-white-color;
   text-transform: uppercase;
 }
 .social-info {
@@ -51,9 +51,9 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 .social .social-icon {
-  fill: var(--primayry-white-color);
+  fill: $primayry-white-color;
 }
 .icon-link:hover,
 .icon-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
